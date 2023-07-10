@@ -1,0 +1,44 @@
+body{
+    background-image: url("background.jpg");
+}
+#info{
+    float: right;
+    border: 1px solid white;
+}
+#main_div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
+#main_div h2{
+    display: inline;
+}
+#mario{
+    width: 100%;
+}
+#start,#status{
+    font-size: 22px;
+}
+.img{
+    width:45%;
+    display: inline-block;
+}
+.modal-dialog{
+    width: 80%;
+}
+#footer{
+    background-color: lemonchiffon;
+    line-height: 2;
+    margin-bottom:0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+video{
+    background-image: url("game_console.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
